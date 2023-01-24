@@ -1,0 +1,11 @@
+body{
+    background-image: url("../img/Backgrounds/Desktop/historia.jpg");
+    background-attachment: fixed; /* Fundo n vai mexer junto com a rolagem da página */
+    background-size: cover;
+}
+
+@media(max-width: 1280px){
+
+    body{
+        background-image: url("../img/Backgrounds/Mobile/mobile-historia.jpg");
+    }
